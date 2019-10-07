@@ -2,7 +2,9 @@ package com.eduardo.microservices.springcloudconfigserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.config.server.EnableConfigServer;
 
+@EnableConfigServer		// You need to add this annotation to turn the Configuration Server on.
 @SpringBootApplication
 public class SpringCloudConfigServerApplication {
 
